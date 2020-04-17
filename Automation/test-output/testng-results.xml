@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation" duration-ms="131217" started-at="2020-04-17T07:14:41Z" finished-at="2020-04-17T07:16:52Z">
+    <groups>
+    </groups>
+    <test name="Smoke Test" duration-ms="131217" started-at="2020-04-17T07:14:41Z" finished-at="2020-04-17T07:16:52Z">
+      <class name="com.wip.test.LoginPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.wip.test.LoginPageTest@4678c730]" name="setup" is-config="true" duration-ms="10451" started-at="2020-04-17T12:44:41Z" finished-at="2020-04-17T12:44:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyEndtoEndFloeOfPurchasingtheProduct()[pri:0, instance:com.wip.test.LoginPageTest@4678c730]" name="verifyEndtoEndFloeOfPurchasingtheProduct" duration-ms="66734" started-at="2020-04-17T12:44:51Z" finished-at="2020-04-17T12:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEndtoEndFloeOfPurchasingtheProduct -->
+        <test-method status="PASS" signature="verifySuccessfullLoginFunctionality()[pri:1, instance:com.wip.test.LoginPageTest@4678c730]" name="verifySuccessfullLoginFunctionality" duration-ms="23401" started-at="2020-04-17T12:45:58Z" finished-at="2020-04-17T12:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfullLoginFunctionality -->
+        <test-method status="PASS" signature="verifyInvalidLoginFunctionality()[pri:2, instance:com.wip.test.LoginPageTest@4678c730]" name="verifyInvalidLoginFunctionality" duration-ms="29359" started-at="2020-04-17T12:46:21Z" finished-at="2020-04-17T12:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLoginFunctionality -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wip.test.LoginPageTest@4678c730]" name="tearDown" is-config="true" duration-ms="1214" started-at="2020-04-17T12:46:51Z" finished-at="2020-04-17T12:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wip.test.LoginPageTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Automation -->
+</testng-results>
